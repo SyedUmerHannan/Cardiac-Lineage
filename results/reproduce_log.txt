@@ -1,0 +1,38 @@
+{
+  "data_status": "synthetic; no empirical calibration",
+  "two_bin_example": {
+    "mean": 1.2,
+    "zero_probability_interval": [
+      0.30000000000000004,
+      0.4
+    ],
+    "mean_only_interval": [
+      0,
+      0.4
+    ]
+  },
+  "frontier_grid_points": 101,
+  "max_dual_gap": 0.0,
+  "max_primal_residual": 0.0,
+  "max_dual_violation": 0.0,
+  "verification_design": {
+    "random_masks": 200,
+    "mean_points_per_mask": 3,
+    "full_LP_comparisons": 1200,
+    "constructive_lifts": 1800,
+    "two_bin_parameter_pairs": 81,
+    "two_bin_frontier_checks": 405
+  }
+}
+test_closed_form_two_bin (test_deadline.DeadlineTests.test_closed_form_two_bin) ... ok
+test_exact_boundary_and_failure_atom (test_deadline.DeadlineTests.test_exact_boundary_and_failure_atom) ... ok
+test_faster_marginal_ranking_reversal (test_deadline.DeadlineTests.test_faster_marginal_ranking_reversal) ... ok
+test_infeasible_and_invalid (test_deadline.DeadlineTests.test_infeasible_and_invalid) ... ok
+test_paired_transport_reduces_uncertainty (test_deadline.DeadlineTests.test_paired_transport_reduces_uncertainty) ... ok
+test_reduced_matches_full_and_constructive_lift (test_deadline.DeadlineTests.test_reduced_matches_full_and_constructive_lift) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.036s
+
+OK
+

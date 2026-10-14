@@ -1,0 +1,16 @@
+{
+  "data_status": "synthetic",
+  "mean_bounds": [
+    1.0,
+    2.0
+  ],
+  "frontier": {
+    "mean": 1.2,
+    "lower": 0.30000000000000004,
+    "upper": 0.4,
+    "dual_value": 0.30000000000000004,
+    "gap": 0.0,
+    "dual_violation": 0.0,
+    "primal_residual": 0.0
+  }
+}

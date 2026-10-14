@@ -1,0 +1,11 @@
+test_closed_form_two_bin (test_deadline.DeadlineTests.test_closed_form_two_bin) ... ok
+test_exact_boundary_and_failure_atom (test_deadline.DeadlineTests.test_exact_boundary_and_failure_atom) ... ok
+test_faster_marginal_ranking_reversal (test_deadline.DeadlineTests.test_faster_marginal_ranking_reversal) ... ok
+test_infeasible_and_invalid (test_deadline.DeadlineTests.test_infeasible_and_invalid) ... ok
+test_paired_transport_reduces_uncertainty (test_deadline.DeadlineTests.test_paired_transport_reduces_uncertainty) ... ok
+test_reduced_matches_full_and_constructive_lift (test_deadline.DeadlineTests.test_reduced_matches_full_and_constructive_lift) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.036s
+
+OK

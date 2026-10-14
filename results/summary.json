@@ -1,0 +1,26 @@
+{
+  "data_status": "synthetic; no empirical calibration",
+  "two_bin_example": {
+    "mean": 1.2,
+    "zero_probability_interval": [
+      0.30000000000000004,
+      0.4
+    ],
+    "mean_only_interval": [
+      0,
+      0.4
+    ]
+  },
+  "frontier_grid_points": 101,
+  "max_dual_gap": 0.0,
+  "max_primal_residual": 0.0,
+  "max_dual_violation": 0.0,
+  "verification_design": {
+    "random_masks": 200,
+    "mean_points_per_mask": 3,
+    "full_LP_comparisons": 1200,
+    "constructive_lifts": 1800,
+    "two_bin_parameter_pairs": 81,
+    "two_bin_frontier_checks": 405
+  }
+}
