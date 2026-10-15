@@ -5,7 +5,7 @@
 
 This repository accompanies *Division timing and daughter rematuration: sharp joint bounds for cardiomyocyte lineage output at a deadline*.
 
-The analysis characterises the attainable combinations of mean qualified daughter output and zero-output probability from finite-support division-time and rematuration-latency marginals. The constructive proof reduces the joint distribution problem to a transport table with one slack variable per division-time stratum.
+The analysis characterises the attainable combinations of mean qualified daughter output and zero-output probability from finite-support division-time and rematuration-latency marginals. The constr[...]
 
 ## Contents
 
@@ -52,6 +52,12 @@ PDF timestamps and execution times may differ after regeneration. The reproducib
 
 ## Scope
 
-The theorem assumes one verified binary division by the assessment deadline, compatible population marginals and a prespecified qualification endpoint. Daughter labels are randomised; sister independence is not assumed. First qualification and qualification at a later assessment require distinct status definitions. Censoring, interval uncertainty and sampling error need to be accounted for before applying the exact-support calculation to observations.
+The theorem assumes one verified binary division by the assessment deadline, compatible population marginals and a prespecified qualification endpoint. Daughter labels are randomised; sister indep[...]
 
 The model concerns lineage-level measurements. It does not estimate ventricular function, arrhythmia risk or therapeutic efficacy.
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This repository is licensed under the MIT License — see [LICENSE](LICENSE) for details.
